@@ -72,7 +72,7 @@ def main():
 	del m1[1, 1]
 	print(m1)
 
-	# Conovert a nxn matrix to a sparse matrix
+	# Conovert a nXn matrix to a sparse matrix
 	matrix = [
 		[0, 0, 1, 3],
 		[0, 0, 0, 0],
