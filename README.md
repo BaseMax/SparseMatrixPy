@@ -2,6 +2,31 @@
 
 A full-featured library in **Python** for working with **Sparse Matrix**.
 
+## SparseMatrix Functions
+
+**Public Methods:**
+
+- `def from_matrix(matrix)`
+
+**Object-based Methods:**
+
+- `def __init__(self, rows, cols)`
+- `def __getitem__(self, index)`
+- `def __setitem__(self, index, value)`
+- `def __add__(self, other)`
+- `def __mul__(self, other)`
+- `def __str__(self)`
+- `def __repr__(self)`
+- `def __eq__(self, other)`
+- `def __ne__(self, other)`
+- `def __hash__(self)`
+- `def __iter__(self)`
+- `def __contains__(self, value)`
+- `def __len__(self)`
+- `def __bool__(self)`
+- `def __delitem__(self, index)`
+- `def to_matrix(self)`
+
 ## SparseMatrix Examples
 
 ```python
