@@ -1,8 +1,8 @@
 #
-# Name: SparseMatrix Python
-# Author: Max Base
-# Date: 2022/11/01
-# Repository: https://github.com/BaseMax/SparseMatrixPy
+# @Name: SparseMatrix In Python
+# @Author: Max Base
+# @Date: 2022/11/01
+# @Repository: https://github.com/BaseMax/SparseMatrixPy
 #
 
 class SparseMatrix:
