@@ -1,4 +1,3 @@
-import os
 import SparseMatrix as sm
 
 # Create main function
@@ -53,6 +52,20 @@ def main():
     # Length of the sparse matrix
     print("Length of M1:")
     print(len(m1))
+
+    # Convert the sparse matrix to hash
+    print("Hash of M1:")
+    print(hash(m1))
+
+    # Cast to bool
+    print("Bool of M1:")
+    print(bool(m1))
+
+    # Delete an element from the sparse matrix
+    print("Delete M1[0, 0]:")
+    del m1[0, 0]
+    print(m1)
+    
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
