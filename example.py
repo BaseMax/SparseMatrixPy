@@ -4,7 +4,6 @@ import SparseMatrix as sm
 # Create main function
 def main():
     print("Hello World")
-    print("The current working directory is {0}".format(os.getcwd()))
 
     # Define a sparse matrix
     m1 = sm.SparseMatrix(3, 3)
