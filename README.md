@@ -40,7 +40,7 @@ print(5 in m1, "\n")
 # Iterate over the sparse matrix
 print("Iterate over M1:")
 for value in m1:
-    print(value)
+print(value)
 
 # Check if two sparse matrices are equal
 print("\nAre M1 and M2 equal?")
@@ -62,6 +62,10 @@ print(hash(m1), "\n")
 print("Bool of M1:")
 print(bool(m1), "\n")
 
+# Convert a sparse matrix to a normal matrix
+print("Convert M1 to a normal matrix:")
+print(m1.to_matrix(), "\n")
+
 # Delete an element from the sparse matrix
 print("Delete M1[0, 0]:")
 del m1[0, 0]
@@ -69,12 +73,12 @@ del m1[0, 1]
 del m1[1, 1]
 print(m1)
 
-# Conovert a nxn matrix to a sparse matrix
+# Conovert a nXn matrix to a sparse matrix
 matrix = [
-    [0, 0, 1, 3],
-    [0, 0, 0, 0],
-    [1, 0, 0, 1],
-    [0, 4, 2, 0]
+[0, 0, 1, 3],
+[0, 0, 0, 0],
+[1, 0, 0, 1],
+[0, 4, 2, 0]
 ]
 m5 = sm.SparseMatrix.from_matrix(matrix)
 print("Sparse Matrix from Matrix:")
