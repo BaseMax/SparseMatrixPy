@@ -97,5 +97,3 @@ class SparseMatrix:
 				if matrix[i][j] != 0:
 					result[i, j] = matrix[i][j]
 		return result
-
-
