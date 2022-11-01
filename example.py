@@ -4,7 +4,7 @@ import SparseMatrix as sm
 # Create main function
 def main():
     print("Hello World")
-    
+
     # Define a sparse matrix
     m1 = sm.SparseMatrix(3, 3)
     m1[0, 0] = 1
@@ -35,7 +35,7 @@ def main():
 
     # Check if a value is in the sparse matrix
     print("Is 5 in M1?")
-    print(5 in m1)
+    print(5 in m1, "\n")
 
     # Iterate over the sparse matrix
     print("Iterate over M1:")
@@ -43,12 +43,12 @@ def main():
         print(value)
 
     # Check if two sparse matrices are equal
-    print("Are M1 and M2 equal?")
-    print(m1 == m2)
+    print("\nAre M1 and M2 equal?")
+    print(m1 == m2, "\n")
 
     # Check if two sparse matrices are not equal
     print("Are M1 and M3 not equal?")
-    print(m1 != m3)
+    print(m1 != m3, "\n")
 
     # Length of the sparse matrix
     print("Length of M1:")
