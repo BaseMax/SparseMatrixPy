@@ -67,7 +67,17 @@ def main():
     del m1[0, 1]
     del m1[1, 1]
     print(m1)
-    
+
+    # Conovert a nxn matrix to a sparse matrix
+    matrix = [
+        [0, 0, 1, 3],
+        [0, 0, 0, 0],
+        [1, 0, 0, 1],
+        [0, 4, 2, 0]
+    ]
+    m5 = sm.SparseMatrix.from_matrix(matrix)
+    print("Sparse Matrix from Matrix:")
+    print(m5)
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
