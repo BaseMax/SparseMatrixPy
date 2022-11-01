@@ -87,7 +87,16 @@ class SparseMatrix:
 	
 	def __delitem__(self, index):
 		del self.data[index]
+	
+	def to_matrix(self):
+		result = []
+		for i in range(self.rows):
+			result.append([])
+			for j in range(self.cols):
+				result[i].append(self[i, j])
+		return result
 
+	# public methods
 	def from_matrix(matrix):
 		rows = len(matrix)
 		cols = len(matrix[0])
@@ -96,12 +105,4 @@ class SparseMatrix:
 			for j in range(cols):
 				if matrix[i][j] != 0:
 					result[i, j] = matrix[i][j]
-		return result
-	
-	def to_matrix(self):
-		result = []
-		for i in range(self.rows):
-			result.append([])
-			for j in range(self.cols):
-				result[i].append(self[i, j])
 		return result
