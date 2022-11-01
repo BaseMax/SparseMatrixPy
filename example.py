@@ -51,15 +51,15 @@ def main():
 
     # Length of the sparse matrix
     print("Length of M1:")
-    print(len(m1))
+    print(len(m1), "\n")
 
     # Convert the sparse matrix to hash
     print("Hash of M1:")
-    print(hash(m1))
+    print(hash(m1), "\n")
 
     # Cast to bool
     print("Bool of M1:")
-    print(bool(m1))
+    print(bool(m1), "\n")
 
     # Delete an element from the sparse matrix
     print("Delete M1[0, 0]:")
