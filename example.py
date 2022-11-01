@@ -4,7 +4,7 @@ import SparseMatrix as sm
 # Create main function
 def main():
     print("Hello World")
-
+    
     # Define a sparse matrix
     m1 = sm.SparseMatrix(3, 3)
     m1[0, 0] = 1
