@@ -61,6 +61,10 @@ def main():
     print("Bool of M1:")
     print(bool(m1), "\n")
 
+    # Convert a sparse matrix to a normal matrix
+    print("Convert M1 to a normal matrix:")
+    print(m1.to_matrix(), "\n")
+
     # Delete an element from the sparse matrix
     print("Delete M1[0, 0]:")
     del m1[0, 0]

@@ -97,3 +97,11 @@ class SparseMatrix:
 				if matrix[i][j] != 0:
 					result[i, j] = matrix[i][j]
 		return result
+	
+	def to_matrix(self):
+		result = []
+		for i in range(self.rows):
+			result.append([])
+			for j in range(self.cols):
+				result[i].append(self[i, j])
+		return result
