@@ -64,6 +64,8 @@ def main():
     # Delete an element from the sparse matrix
     print("Delete M1[0, 0]:")
     del m1[0, 0]
+    del m1[0, 1]
+    del m1[1, 1]
     print(m1)
     
 
