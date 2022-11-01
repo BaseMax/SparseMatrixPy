@@ -34,6 +34,28 @@ def main():
     print("Multiplication of M1 and M2:")
     print(m4)
 
+    # Check if a value is in the sparse matrix
+    print("Is 5 in M1?")
+    print(5 in m1)
+
+    # Iterate over the sparse matrix
+    print("Iterate over M1:")
+    for value in m1:
+        print(value)
+
+    # Check if two sparse matrices are equal
+    print("Are M1 and M2 equal?")
+    print(m1 == m2)
+
+    # Check if two sparse matrices are not equal
+    print("Are M1 and M3 not equal?")
+    print(m1 != m3)
+
+    # Length of the sparse matrix
+    print("Length of M1:")
+    print(len(m1))
+
 # This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
+    # Call the main function
     main()
