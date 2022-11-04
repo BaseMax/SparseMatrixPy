@@ -100,10 +100,10 @@ print(m1)
 
 # Conovert a nXn matrix to a sparse matrix
 matrix = [
-[0, 0, 1, 3],
-[0, 0, 0, 0],
-[1, 0, 0, 1],
-[0, 4, 2, 0]
+  [0, 0, 1, 3],
+  [0, 0, 0, 0],
+  [1, 0, 0, 1],
+  [0, 4, 2, 0]
 ]
 m5 = sm.SparseMatrix.from_matrix(matrix)
 print("Sparse Matrix from Matrix:")
