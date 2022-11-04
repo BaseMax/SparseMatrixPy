@@ -1,4 +1,4 @@
-# SparseMatrixPy
+# SparseMatrix Python (SparseMatrixPy)
 
 A full-featured library in **Python** for working with **Sparse Matrix**.
 
